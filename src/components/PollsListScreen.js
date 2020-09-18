@@ -32,7 +32,6 @@ export const PollsListScreen = () => {
 
     }, [dispatch])
 
-      
 
 
     return (

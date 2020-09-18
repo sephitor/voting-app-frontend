@@ -4,6 +4,7 @@ import { Provider } from 'react-redux';
 import { store } from './store/store';
 
 export const VotingApp = () => {
+
     return (
         <div className="container-fluid mt-3">
             <div className="card mb-3">
@@ -13,8 +14,8 @@ export const VotingApp = () => {
             </div>
 
 
-            <Provider store={store}>
-                <AppRouter />
+            <Provider store={store} >
+                <AppRouter/>
             </Provider>
 
         </div>
